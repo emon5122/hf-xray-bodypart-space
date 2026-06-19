@@ -54,7 +54,7 @@ demo = gr.Interface(
         "⚠️ Suggestion/demo only — NOT for clinical or diagnostic use. "
         "By Istiak Hassan Emon (@emon5122)."
     ),
-    allow_flagging="never",
+    flagging_mode="never",
 )
 
 if __name__ == "__main__":
